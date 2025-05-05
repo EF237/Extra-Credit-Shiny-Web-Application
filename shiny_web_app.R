@@ -11,7 +11,7 @@ library(shiny)
 library(DT)
 library(tidyverse)
 library(broom)
-f <- "~/Desktop/ADA-REPO/shiny_web/CDV-Data.csv"
+f <- "https://raw.githubusercontent.com/EF237/Extra-Credit-Shiny-Web-Application/refs/heads/main/CDV-Data.csv"
 d <- read_csv(f, col_names = TRUE)
 
 d <- d |>
