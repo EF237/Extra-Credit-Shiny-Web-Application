@@ -2,10 +2,9 @@
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 #
-# Find out more about building applications with Shiny here:
-#
-#    https://shiny.posit.co/
-#
+# This application allows you to visualize data from the risk training phase of the Blackjack protocol in my lab.
+# Enabling interpretation of relationships between various variables and key predictor variables.
+
 
 library(shiny)
 library(DT)
